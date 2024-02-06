@@ -11,7 +11,7 @@ Coverage percentage 100% (report: `htmlcov/index.html`)
 - `praktikum` - package containing program code
 - `tests` - a package containing tests, divided by class. For example, `bun_test.py`, `burger_test.py`, etc.
 
-###Running autotests
+Running autotests
 
 **Installing dependencies**
 
