@@ -9,7 +9,7 @@ Coverage percentage 100% (report: `htmlcov/index.html`)
 ### Project structure
 
 - `praktikum` - package containing program code
-- `tests` - a package containing tests, divided by class. For example, `bun_test.py`, `burger_test.py`, etc.
+- `tests` - a package containing tests, divided by class. 
 
 Running autotests
 
