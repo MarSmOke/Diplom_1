@@ -1,24 +1,22 @@
-## Дипломный проект. Задание 1: Юнит-тесты
+## Unit tests for Stellar Burgers
 
-### Автотесты для проверки программы, которая помогает заказать бургер в Stellar Burgers
+### Implemented scenarios
 
-### Реализованные сценарии
+Unit tests were created covering the classes `Bun`, `Burger`, `Ingredient`, `Database`
 
-Созданы юнит-тесты, покрывающие классы `Bun`, `Burger`, `Ingredient`, `Database`
+Coverage percentage 100% (report: `htmlcov/index.html`)
 
-Процент покрытия 100% (отчет: `htmlcov/index.html`)
+### Project structure
 
-### Структура проекта
+- `praktikum` - package containing program code
+- `tests` - a package containing tests, divided by class. For example, `bun_test.py`, `burger_test.py`, etc.
 
-- `praktikum` - пакет, содержащий код программы
-- `tests` - пакет, содержащий тесты, разделенные по классам. Например, `bun_test.py`, `burger_test.py` и т.д.
+###Running autotests
 
-### Запуск автотестов
-
-**Установка зависимостей**
+**Installing dependencies**
 
 > `$ pip install -r requirements.txt`
 
-**Запуск автотестов и создание HTML-отчета о покрытии**
+**Running autotests and creating an HTML coverage report**
 
->  `$ pytest --cov=praktikum --cov-report=html`
+> `$ pytest --cov=praktikum --cov-report=html`
